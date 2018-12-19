@@ -10,7 +10,7 @@ az group create --name Ralph --location "West US 2"
 az group deployment create --name AMLWorkspace --resource-group Ralph --template-file workspace.json --parameters workspaceName=wrecker location="West US 2"
 ```
 
-This will create a resource group named `Ralph` and an AML Workspace named `Terminator` together with the following resources:
+This will create a resource group named `Ralph` and an AML Workspace named `wrecker` together with the following resources:
 1. Azure Container Registry named `wreckeracr`
 2. Azure App Insights named `wreckerinsights`
 3. Azure Storage Account named `wreckerstorage`
